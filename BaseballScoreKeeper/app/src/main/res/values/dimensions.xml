@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="padding_team_name">16dp</dimen>
+  <dimen name="score_number">56sp</dimen>
+  <dimen name="teams_title">16sp</dimen>
+  <dimen name="line_margin">16dp</dimen>
+  <dimen name="line_width">1dp</dimen>
+  <dimen name="margin_bottom_score">24dp</dimen>
+  <dimen name="metrics_padding">3dp</dimen>
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+  <string name="app_name">Baseball Score Keeper</string>
+  <string name="team_a">Team A</string>
+  <string name="team_b">Team B</string>
+  <string name="outs">Outs:&#160;</string>
+  <string name="balls">Balls:&#160;</string>
+  <string name="strikes">Strikes:&#160;</string>
+  <string name="innings">Innings:</string>
+  <string name="add_run">+1 Run</string>
+  <string name="add_strike">Strike!</string>
+  <string name="add_ball">Ball!</string>
+  <string name="add_out">+1 Out</string>
+  <string name="reset">Reset</string>
+  <string name="zero">0</string>
+  <string name="default_inning">Top #1</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">So Listen Profile</string>
+  <string name="business_img_desc">So Listen\'s Logo</string>
+  <string name="business_name">So Listen</string>
+  <string name="business_phone">(646) 545&#8211;1589</string>
+  <string name="business_address">364 18th Avenue, Paterson, NJ 07504</string>
+  <string name="business_email">solisten@outlook.com</string>
+  <string name="business_description">A company that stores and showcase musical (official) videos of artists\' songs.</string>
+</resources>

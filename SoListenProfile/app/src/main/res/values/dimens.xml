@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="default_padding">4dp</dimen>
+  <dimen name="double_default_padding">4dp</dimen>
+  <dimen name="title">18sp</dimen>
+  <dimen name="icon_margin_right">5dp</dimen>
+</resources>

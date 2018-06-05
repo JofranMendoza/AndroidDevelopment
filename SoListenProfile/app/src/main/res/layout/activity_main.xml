@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+      android:contentDescription="@string/business_img_desc"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="2"
+      android:scaleType="centerCrop"
+      android:src="@drawable/solistenslogo" />
+
+    <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_margin="25dp"
+      android:layout_weight="1">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingBottom="@dimen/default_padding"
+          android:text="@string/business_name"
+          android:textColor="@android:color/black"
+          android:textSize="@dimen/title"
+          android:textStyle="bold" />
+
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/default_padding"
+            android:src="@drawable/baseline_phone_black_18dp" />
+
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/default_padding"
+            android:autoLink="phone"
+            android:text="@string/business_phone"
+            android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/default_padding"
+            android:src="@drawable/baseline_mail_black_18dp" />
+
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:paddingBottom="@dimen/default_padding"
+            android:text="@string/business_email"
+            android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/default_padding"
+            android:src="@drawable/baseline_location_on_black_18dp" />
+
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="map"
+            android:paddingBottom="@dimen/default_padding"
+            android:text="@string/business_address"
+            android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingBottom="@dimen/default_padding"
+          android:paddingTop="@dimen/double_default_padding"
+          android:text="@string/business_name"
+          android:textColor="@android:color/black"
+          android:textStyle="bold" />
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingBottom="@dimen/default_padding"
+          android:paddingTop="@dimen/default_padding"
+          android:text="@string/business_description"
+          android:textColor="@android:color/black" />
+      </LinearLayout>
+    </ScrollView>
+
+  </LinearLayout>
+
+</RelativeLayout>

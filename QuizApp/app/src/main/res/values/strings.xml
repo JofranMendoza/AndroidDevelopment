@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">Quiz App</string>
+  <string name="topic">Android Development</string>
+  <string name="question1">1. What view is used to display a text? \(Case sensitive\)</string>
+  <string name="question2">2. What view group is used to arrange its children in an horizontal or vertical column? \(Case sensitive\)</string>
+  <string name="question3">3. The \"android:orientation\" attribute must be used in a RelativeLayout</string>
+  <string name="question4">4. Which of these are view groups? (Select all that apply)</string>
+  <string name="question5">5. What view is utilized to display a Button?</string>
+  <string name="answer_true">True</string>
+  <string name="answer_false">False</string>
+  <string name="answer_viewgroups1">LinearLayout</string>
+  <string name="answer_viewgroups2">TextView</string>
+  <string name="answer_viewgroups3">CheckBox</string>
+  <string name="answer_viewgroups4">RelativeLayout</string>
+  <string name="answer_button1">Button</string>
+  <string name="answer_button2">View</string>
+  <string name="answer_button3">RadioButton</string>
+  <string name="check_result_btn">Check your score</string>
+  <string name="edit_text_answer_hint">Write your answer here</string>
+</resources>
